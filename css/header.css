@@ -70,10 +70,54 @@ body .header .header-top .sub-menu {
   width: 310px;
 }
 
-body .header .header-top .sub-menu .menu-link {
+body .header .header-top .sub-menu .sub-menu-link {
   font-size: .8em;
   text-decoration: none;
   color: #5b6987;
   margin-left: 1.2em;
+}
+
+body .header .header-bottom {
+  border: none;
+  border-bottom: 1px solid #f1eaeade;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .header .header-bottom .logo {
+  margin-top: -3.7em;
+  margin-left: .5em;
+  width: 210px;
+  height: 190px;
+  opacity: .8;
+}
+
+body .header .header-bottom a {
+  text-decoration: none;
+}
+
+body .header .header-bottom .menu-link {
+  color: black;
+  font-size: 14px;
+  margin: 1.99em;
+}
+
+body .header .header-bottom .sign-up-btn {
+  height: 20px;
+  color: #0069ff;
+  background: transparent;
+  padding: 5.7px 14px;
+  margin-left: 33.3em;
+  margin-top: 1em;
+  border-radius: 5px;
+  border: 1.235px solid #0069ff;
+  line-height: 1;
+  font-weight: bold;
 }
 /*# sourceMappingURL=header.css.map */
