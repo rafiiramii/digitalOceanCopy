@@ -1,1 +1,120 @@
-/* No CSS *//*# sourceMappingURL=banner.css.map */
+.banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  padding: 8em 13em;
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(2, 74, 255, 0.87)), to(rgba(2, 74, 255, 0.87))), url("https://images.unsplash.com/27/type-set.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1962&q=80") center no-repeat;
+  background: linear-gradient(rgba(2, 74, 255, 0.87), rgba(2, 74, 255, 0.87)), url("https://images.unsplash.com/27/type-set.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1962&q=80") center no-repeat;
+  background-size: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  margin-top: -.03em;
+  margin-left: -.5em;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.banner .banner-text {
+  width: 530px;
+  color: white;
+}
+
+.banner .banner-text h3 {
+  font-size: 62px;
+}
+
+.banner .banner-text h6 {
+  margin-top: -1.79em;
+  font-size: 24px;
+  opacity: .8;
+  font-weight: lighter;
+  line-height: 1.47em;
+}
+
+.banner .banner-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 300px;
+  padding: 2.8em;
+  margin-right: 26.5em;
+  background: white;
+  height: 360px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.banner .banner-form h3 {
+  width: 300px;
+  font-size: 29px;
+  color: #031b4e;
+  font-weight: bold;
+  line-height: 1.25;
+  margin-top: -.4em;
+}
+
+.banner .banner-form input {
+  margin-bottom: 1em;
+  padding: 1em;
+  border: 1px solid rgba(0, 0, 0, 0.075);
+  border-radius: 5px;
+}
+
+.banner .banner-form #btn-create {
+  background-color: #15cd72;
+  padding: 1em;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.banner .banner-form a {
+  height: 50px;
+  margin-top: 1em;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.089);
+}
+
+.banner .banner-form img {
+  margin-top: 1em;
+  width: 20px;
+  height: 21px;
+  margin-left: .7em;
+}
+
+.banner .banner-form h5 {
+  font-size: 1.1em;
+  margin-top: -1.4em;
+  margin-left: 4em;
+  color: rgba(0, 0, 0, 0.651);
+}
+
+.banner .banner-form p {
+  padding-top: 1.4em;
+  font-size: .85em;
+  color: rgba(0, 0, 0, 0.568);
+}
+
+.banner .banner-form p a {
+  border: none;
+  color: #0069ff;
+  outline: inherit;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=banner.css.map */
