@@ -1,0 +1,106 @@
+body{
+    font-family: "Josefin Sans" , sans-serif;
+    .header{
+        display: flex;
+        flex-direction: column;
+        .header-top{
+            height: 42px;
+                 margin-top: -.6em;
+            border: none;
+            border-bottom: 1px solid #f1eaeade;
+            padding:  0 2em ;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            h3{
+                background-color: #00d7d2;
+                height: 11px;
+                border-radius: 5px;
+                color: #031b4e;
+                cursor: default;
+                display: inline-block;
+                font-size: 12px;
+                line-height: 1;
+                padding: 4px 8px;
+                text-align: center;
+                text-transform: uppercase;
+                user-select: none;
+                vertical-align: middle;
+                margin-top: -.1sem;//
+             
+                 
+            }
+
+            #headerLink{
+                
+                padding-top: 1.3em;
+                margin-right: 63.5em;
+                text-decoration: none;
+                color: #091329d5;
+                font-size: .73em;
+                font-family: "Josefin Sans" , sans-serif;
+            }
+            #headerLink:hover{
+                color: #0069ff;
+            }
+
+            .sub-menu{
+                text-align: right;
+               // border: 2px solid red;
+                padding: .6em;
+                margin-left: 4em;
+                width: 310px;
+                .sub-menu-link{
+                    font-size: .8em;
+                    text-decoration: none;
+                    color: #5b6987;
+                    
+                    margin-left: 1.2em;
+                }
+            }
+            
+        }
+
+        .header-bottom{
+            border: none;
+            border-bottom: 1px solid #f1eaeade;
+           // border: 2px solid red;
+            height: 70px;
+            display: flex;
+            flex-direction: row;
+            .logo{
+                margin-top: -3.7em;
+                margin-left: .5em;
+                width: 210px;
+                height: 190px;
+            opacity: .8;
+            }
+
+            a{
+                text-decoration: none;
+
+            }
+            .menu-link{
+                color: black;
+                font-size: 14px;
+                margin: 1.99em;
+    
+            }
+            .sign-up-btn{
+                height: 20px;
+                color: #0069ff;
+                background: transparent;
+                padding: 5.7px 14px;
+                // padding-left: 33em;
+                margin-left: 33.3em;
+                margin-top: 1em;
+                border-radius: 5px;
+                border: 1.235px solid #0069ff;
+                line-height: 1;
+                font-weight: bold;
+
+            }
+        }
+    }
+}
