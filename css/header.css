@@ -108,6 +108,10 @@ body .header .header-bottom .menu-link {
   margin: 1.99em;
 }
 
+body .header .header-bottom .menu-link:hover {
+  color: #0069ff;
+}
+
 body .header .header-bottom .sign-up-btn {
   height: 20px;
   color: #0069ff;
